@@ -70,24 +70,18 @@ justify-content: space-between;
 }
 #one{
    background-image: url(./Crypto_images/hero-bg.png);
-   
    width: 100%;
    background-size: cover;
     background-position: center;
-   
-    /* background: #0D0D2B; */
     display: flex;
     padding: 98px 120px;
     flex-wrap: wrap;
 }
 .left{
     width: 50%;
-   
 }
 .right{
     width: 50%;
- 
-   background-size: c;
 }
 .right img{
     width: 100%;
@@ -103,7 +97,7 @@ justify-content: space-between;
     align-items: center;
     padding-left: 4px;
     gap: 16px;
-    line-height: 28px;
+    line-height: 1.2rem;
     letter-spacing: 0.01em;
 }
 #save{
@@ -118,7 +112,7 @@ padding-right: 16px;
 }
 .left h1{
   font-weight: 700;  
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 76px;
   color: #FFFFFF;
   margin: 24px 0;
@@ -140,13 +134,13 @@ padding-right: 16px;
     width: 202px;
     gap: 24px;
     display: flex;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 500;
     text-align: center;
     color: #FFFFFF;
     margin: 24px 0;
 }
-.free .fa{
+ .fa{
     background: #FFFFFF;
     height: 24px;
     width: 24px;
@@ -369,13 +363,13 @@ color: #0D0D2B;
     flex-direction: column;
     text-align: center;
     transition: ease-in-out 0.7s;
-   align-items: center;
+    align-items: center;
 }
 .btc{
     padding: 48px 0 16px 0;
     display: flex;
-   gap: 8px;
-   align-items: center;
+    gap: 8px;
+    align-items: center;
 
 }
 .btc h3{
@@ -403,35 +397,23 @@ letter-spacing: 0.01em;
 color: var(--header-color);
 padding-bottom: 16px ;
 }
-.mining{
-    display: none; 
-    margin:  0;
-    /* bottom: 48px; */
-}
 
-/* .mining.dark-theme{
-   display: block;
-    
-  
-} */
+
+
 .show{
     width: 64px;
     height: 64px;
     border-radius: 50%;
     border: 2px solid rgba(43, 7, 110, 0.2);
+    margin-top: 25px;
+   padding-top: 15px;
     color: #3671E9;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    transition: .5s;
-    
-    /* margin-top: 20px; */
-
+    transition: .3s;
 }
-/* .show.dark-theme{
-    display: none;
-} */
 
+.mining{
+    display: none;
+}
 #six{
     padding: 100px 120px;
     background: #2B076E;
@@ -659,7 +641,9 @@ footer p{
     body{
         width: 100%;
     }
-   
+   #black-friday{
+    width: 100%;
+   }
     .nav-bar, .entry{
         display: none;
     }
@@ -693,6 +677,7 @@ footer p{
     }
     #five h2{
         margin:  100px 0px 64px 0px;
+        font-size: 2rem;
  
     }
     .logo1{
